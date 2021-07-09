@@ -1,0 +1,32 @@
+baseurl = "https://example.com/"
+languageCode = "en-us"
+theme = "terminal"
+paginate = 5
+defaultContentLanguage = "nl"
+
+[params]
+  contentTypeName = "post"
+  themeColor = "pink"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = true
+
+[languages]
+  [languages.nl]
+    title = "Meike"
+    subtitle = "A simple, retro theme for Hugo"
+    keywords = ""
+    copyright = ""
+    menuMore = "Laat meer zien"
+    readMore = "Lees meer"
+    readOtherPosts = "Lees andere posts"
+
+    [languages.nl.params.logo]
+      logoText = "Meike"
+      logoHomeLink = "/"
+
+    [languages.nl.menu]
+      [[languages.nl.menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about"
